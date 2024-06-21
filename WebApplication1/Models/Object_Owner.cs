@@ -7,8 +7,8 @@
         public double Height { get; set; }
         public string Type { get; set; }
 
-        public int OwnerId { get; set; } // Foreign key
-        public Owner Owner { get; set; } // Navigation property
+        public int OwnerId { get; set; } 
+        public Owner Owner { get; set; } 
     }
 }
 
